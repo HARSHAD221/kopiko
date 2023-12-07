@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: black;
+}
+.branding{
+    
+    
+    width: auto;
+    text-align: center;
+    border-bottom: 2px;
+    height: 140px;
+   
+}
+
+.heading-1{
+    font-family: ui-serif;
+    font-size: 19px;
+    font-weight: -10px;
+    font-style: normal;
+    padding: 30px;
+    color:rgb(188, 185, 185) ;
+    
+    
+}
+.heading-1:hover{
+    color: rgb(213, 39, 39);
+}
+
+.heading-2{
+    
+    color: rgb(155, 152, 152);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  ;
+    font-size: 8.5px;
+    font-weight:100px;
+    margin-top: -29px;
+    letter-spacing: 4px;
+
+    
+    
+}
+
+.navbar ul{
+   list-style-type: none;
+   padding: 0px;
+   margin: 0 px;
+   overflow: auto;
+   text-align: center;
+   font-family: arial;
+   font-size: 14px;
+}
+.navbar a{
+  color: white;
+  text-decoration: none;
+  
+}
+ul li ul.dropdown li{
+    display: block;
+    font-size: 13px;
+}
+ul li ul.dropdown{
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+.navbar a:hover{
+    color: rgb(183, 9, 9)
+
+}
+ul li:hover ul.dropdown{
+    display: block;
+    color: red;
+}
+.navbar li{
+    
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+}
+#header{
+    background-color: black;
+    
+}
+.sub-main{
+   font-family: 'Times New Roman', Times, serif;
+   color: white;
+   text-align: center;
+   font-weight: 200px;
+   
+}
+.heading-3{
+    font-size: 35px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    color: white;
+    
+}
+
+.image {
+  
+   display: flex;
+   justify-content: space-around;
+}
+.property-1{
+    margin-top: -7px;
+
+    margin-left: 60px;
+}
+.property-2{
+    margin-top: -7px;
+
+    margin-right: 40PX;
+}
+
+.heading-4{
+    font-size:25px ;
+    margin-top: 16px;
+    color: white;
+}
+.paragraph{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 17.5px;
+    font-weight: 400px;
+    line-height: 30px;
+    color: rgb(120, 117, 117);
+  
+}
+.first{
+    margin: 30px 70px -5px 70px ;
+
+}
+.second{
+    margin: 0px 70px 5px 70px ;
+}
+.imagesideline{
+    display: flex;
+    justify-content: space-around;
+
+}
+.property-3{
+    margin-top: 50px;
+    margin-left: 210px;
+}
+.property-4{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.property-5{
+    margin-top: 30px;
+    
+    margin-right:210px ;
+}
+.third{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 17.5px;
+    font-weight: 400px;
+    margin: 30px 70px 5px 70px ;
+    color: rgb(120, 117, 117);
+    
+}
+.p-3{
+    line-height: 32px;
+    margin-bottom: 30px;
+    
+}
+.p-4{
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.p-5{
+    line-height: 30px;
+    margin-bottom: 30px; 
+}
+.wrapper{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 220px;
+    margin-bottom: 40px;
+    color: white;
+}
